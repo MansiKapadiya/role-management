@@ -2,11 +2,11 @@ run project:
 
 run command 
 
-1 Composer update
-2 php artisan migrate
-3 php artisan db:seed
+- 1 Composer update
+- 2 php artisan migrate
+- 3 php artisan db:seed
 - If not run 2 & 3 command then import database from db folder
-4 php artisan serve
+- 4 php artisan serve
 
 http://127.0.0.1:8000/admin/login
 
