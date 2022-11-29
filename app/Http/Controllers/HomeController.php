@@ -59,7 +59,7 @@ class HomeController extends Controller
             $product->save();
         }
 
-        session()->flash('success', 'Product has been deleted !!');
+        session()->flash('success', 'Product has been added to cart !!');
         return back();
     }
 
