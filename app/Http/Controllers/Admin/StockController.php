@@ -29,7 +29,7 @@ class StockController extends Controller
     public function create()
     {
         $products = Product::all();
-        return view('backend.pages.stock.create', compact('products'));
+        return view('backend.pages.stocks.create', compact('products'));
     }
 
     /**
@@ -82,7 +82,7 @@ class StockController extends Controller
     {
         $earning  = Stock::find($id);
         $products = Product::all();
-        return view('backend.pages.stock.edit', compact('earning', 'products'));
+        return view('backend.pages.stocks.edit', compact('earning', 'products'));
     }
 
     /**
