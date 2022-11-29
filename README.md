@@ -11,3 +11,7 @@ Password: 12345678
 => SubAdmin
 Username: superadmin@example.com or subadmin
 Password: 12345678
+
+=> User:
+Username: mansi.rhythm@gmail.com
+Password: 12345678
